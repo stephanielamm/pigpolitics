@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pigs and Politics</title>
+
+
+  <link rel="stylesheet" type="text/css" href="jquery.fullpage.css" />
+  <link rel="stylesheet" type"text/css" href="style.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.fullpage.js"></script>
+
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+        //navigation
+				sectionsColor: ['#f1f3f2', '#808080', '#f1f3f2', '#808080', '#ccddff'],
+				anchors: ['firstpage', 'secondpage', 'thirdpage', 'fourthpage', 'lastPage'],
+				menu: '#menu',
+        lockAnchors: true,
+
+        //scrolling
+				scrollingSpeed: 500,
+        fitToSection:true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+			});
+		});
+	</script>
+
+</head>
+
+
+<body>
+
+
+
+
+
+  <div id="fullpage">
+    <div class="section"> <img src="title.svg" alt="title"></div>
+
+    <div class="section">
+        <div class="description">At the 1968 Democratic convention, voters became fed up with the facade of democracy when a candidate who was not even campaigning in the primary won the party nomination.</div>
+    </div>
+
+    <div class="section">
+    <div class="slide"> Slide 1 </div>
+    <div class="slide"> Slide 2 </div>
+    <div class="slide"> Slide 3 </div>
+    <div class="slide"> Slide 4 </div>
+    </div>
+
+    <div class="section">QUIZ</div>
+</div>
+
+
+</body>
+
+
+</html>
