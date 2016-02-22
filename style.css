@@ -48,6 +48,9 @@ font-weight: 400;
   color: #808080;
 }
 
+#quizbox #quiz{
+  overflow-y: scroll;
+}
 
 
 
