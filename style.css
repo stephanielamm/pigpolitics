@@ -45,34 +45,10 @@ font-weight: 400;
   z-index: 100;
   display: none;
   padding:10px;
-  color: #ffffff;
+  color: #808080;
 }
 
 
-#quizwindow .possible_answer{
-  color: #000000;
-}
-
-#quizwindow h3{
-  color: #ffffff;
-}
-
-#quizwindow .how_you_did{
-  color: #000000;
-}
-
-#quizwindow .btn-block{
-  font-size:45px;
-  height:10%;
-}
-
-#quizwindow #quiz{
-  overflow-y: scroll;
-}
-
-#quizwindow .question{
-  font-size: 60px;
-}
 
 
 
