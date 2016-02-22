@@ -32,6 +32,10 @@ font-weight: 400;
   color:#E581B4
 }
 
+.qtext {
+
+}
+
 #quizbox{
   width:95%;
   height:95%;
@@ -80,4 +84,8 @@ font-weight: 400;
   .description{
     font-size:15px;
   }
+  .qtext{
+    font-size:50px;
+  }
+
 }
