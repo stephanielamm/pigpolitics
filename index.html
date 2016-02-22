@@ -38,7 +38,7 @@
         scrollBar: true,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
-        loopBottom: false,
+        loopBottom: true,
         loopTop: false,
         loopHorizontal: true,
         continuousVertical: false,
@@ -71,17 +71,23 @@
     <div class="section">
     <div class="slide">
       <div class="title">Democratic <span class="pink">PRETENSE</span></div>
-      <div class="description">Before 1968, voters were given no control over their party's nominee. Voters tuned in to the national republican and national democrat conventions to find out who each party had nominated. The few states with primaries held them out of show--they had no effect on who got the party nomination. At the national convention, delegates voted on who would receive the party's nomination. Except back then, <span class="pink">delegates voted based on who the party bosses told them to choose.</span></div>
+      <div class="description">Before 1968, voters had no control over their party's nominee. The few states with primaries held them out of show--they had no effect on who got the party nomination. At the national conventions, delegates voted on who would receive the party's nomination. Except back then, <span class="pink">delegates voted based on who the party bosses told them to choose.</span></div>
     </div>
-    <div class="slide"><div class="title">Sparring <span class="pink">POLITICIANS</span></div>
-    <div class="description">In the years leading up to the 1968 Democratic convention, there had been a growing tension between the Democratic party leadership and its young voters. The new generation of democrat voters were <span class="pink">anti-war, pro-civil rights, feminist college students</span> who felt the party leadership was out of touch with their demands. They particularly despised the incumbent president, Lyndon B. Johnson, for his support of the Vietnam War.
-    </br></br>
-    Young democrats threw their support behind the two anti-war senators running for president, <span class="pink">Eugene McCarthy and Robert F. Kennedy</span>. As the two senators won several primaries, Johnson ended his campaign for re-election. As the primaries came to a close, Johnson's vice president, Hubert Humphrey, made a last-minute decision to seek the nomination. He entered the race so late that he was ineligible for the remaining primaries.
+    <div class="slide"><div class="title">Anti-war <span class="pink">PARTY</span></div>
+    <div class="description">In the years leading up to the 1968 Democratic convention, there was a growing tension between the Democratic party leadership and its voters. The new generation of democratic voters were <span class="pink">anti-war, pro-civil rights, feminist college students</span> who felt the party leadership was out of touch with their demands. They particularly despised the incumbent president, Lyndon B. Johnson, for his support of the Vietnam War.
+    </div>
+  </div>
+      <div class="slide"><div class="title">Sparring <span class="pink">POLITICIANS</span></div>
+      <div class="description">
+    Young democrats threw their support behind the two anti-war senators running for president, <span class="pink">Eugene McCarthy and Robert F. Kennedy</span>. As the two senators won several primaries, Johnson ended his campaign for re-election. Johnson's vice president, Hubert Humphrey, made a last-minute decision to seek the nomination. He entered the race so late that he was ineligible for the remaining primaries.
 </div>
     </div>
-    <div class="slide"> <div class="title">DNC <span class="pink">Panic</span></div>
-    <div class="description">On June 5, 1968, while giving his victory speech after winning the California primary, Kennedy was shot and killed. Without Kennedy, democrat voters rallied for McCarthy. <span class="pink">Most people assumed McCarthy would win the party nomination.</span>
-    </br></br>
+    <div class="slide"> <div class="title">National <span class="pink">PANIC</span></div>
+    <div class="description">On June 5, 1968, while giving his victory speech after winning the California primary, Kennedy was shot and killed. Without Kennedy, democrats rallied for McCarthy. <span class="pink">Most people assumed McCarthy would win the party nomination.</span>
+    </div>
+    </div>
+      <div class="slide"> <div class="title">Humphrey <span class="pink">PREVAILS</span></div>
+      <div class="description">
     At the National Democratic Convention in August, the party selected <span class="pink">Humphrey</span> as their nominee. As the pro-war candidate, Humphrey had received little popular support from democrats, and voters had not had a chance to officially express their disdain for Humphrey through the primary system. Democrats felt their party had betrayed them. They wanted an end to party bosses and back-room dealings.
     </div>
     </div>
@@ -91,14 +97,13 @@
     </div>
     <div class="slide"> <div class="title">Reformed <span class="pink">POLICIES</span></div>
     <div class="description">
-    The Democratic Party, embarrassed by the protests and the failure of Humphrey's campaign, resolved to reform their nominating process. Voters in each state vote in primaries or caucuses, then at the national party convention, delegates from that state are required to cast their ballot according to their state's results.
-    </br></br>
-    By 1980, democratic primaries had replaced the facade of nominee selection. Today, party national conventions are elaborate productions, <span class="pink">but the voters have already chosen the nominee.</span>
+    The Democratic Party, embarrassed by the protests and the failure of Humphrey's campaign, resolved to reform their nominating process. Voters in each state vote in primaries or caucuses, then at the national party convention, <span class="pink">delegates from that state are required to cast their ballot according to their state's primary results.</span>
+
     </div>
    </div>
    <div class="slide">
      <div class="title">Today's <span class="pink">PRIMARY</span></div>
-     <div class="description">describe today's primary process here.</div>
+     <div class="description">By 1980, democratic primaries had replaced the facade of nominee selection. Today, party national conventions are elaborate productions, where everyone gathers for the unveiling of the party's candidate, <span class="pink">but the voters have already chosen the nominee through the primary system.</span></div>
    </div>
 
     </div>
@@ -106,7 +111,7 @@
 <!--quiz starts here-->
     <div class="section" style="text-align:center;">
 
-      <button id="playQuizButton" class="btn btn-primary" style="width:80%;height:80%; font-size:180px;     background-color: #E581B4;border-color: #E581B4;"><span class="qtext">Take the<br />Quiz</span></button>
+      <button id="playQuizButton" class="btn btn-primary" style="width:70%;height:80%; font-size:180px;     background-color: #E581B4;border-color: #E581B4;"><span class="qtext">Take the<br />Quiz</span></button>
 
      </div>
    </div>
@@ -144,6 +149,13 @@
       });
     });
     </script>
+<script> <!--slimscrolling-->
+    $(function(){
+    $('#description').slimScroll({
+        height: '250px'
+    });
+});
+</script>
 
 </body>
 
