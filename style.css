@@ -48,30 +48,33 @@ font-weight: 400;
   color: #ffffff;
 }
 
-#quizbox .possible_answer{
+
+#quizwindow .possible_answer{
   color: #000000;
 }
 
-#quizbox h3{
+#quizwindow h3{
   color: #ffffff;
 }
 
-#quizbox .how_you_did{
+#quizwindow .how_you_did{
   color: #000000;
 }
 
-#quizbox .btn-block{
+#quizwindow .btn-block{
   font-size:45px;
   height:10%;
 }
 
-#quizbox #quiz{
+#quizwindow #quiz{
   overflow-y: scroll;
 }
 
-#quizbox .question{
+#quizwindow .question{
   font-size: 60px;
 }
+
+
 
 @media (max-width:991px) {
   .intro{
