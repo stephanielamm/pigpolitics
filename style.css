@@ -32,6 +32,43 @@ font-weight: 400;
   color:#E581B4
 }
 
+#quizbox{
+  width:95%;
+  height:95%;
+  top:2.5%;
+  left:2.5%;
+  position: fixed;
+  z-index: 100;
+  background-color: #000000;
+  display: none;
+  padding:10px;
+  color: #ffffff;
+}
+
+#quizbox .possible_answer{
+  color: #000000;
+}
+
+#quizbox h3{
+  color: #ffffff;
+}
+
+#quizbox .how_you_did{
+  color: #000000;
+}
+
+#quizbox .btn-block{
+  font-size:45px;
+  height:10%;
+}
+
+#quizbox #quiz{
+  overflow-y: scroll;
+}
+
+#quizbox .question{
+  font-size: 60px;
+}
 
 @media (max-width:991px) {
   .intro{
